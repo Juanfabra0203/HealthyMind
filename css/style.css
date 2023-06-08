@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: interrs;
+}
+body{
+    background-color: #faf5f5;
+}
+/** Inicio Estilos de pagina inicio index**/
+header{
+    background-color: #69dad8;
+    width: 100%; 
+    height: 85px; 
+    display: flex;
+    box-shadow: 0px 5px 40px 4px #0da054;
+    z-index: 9999;
+}
+
+.section-logo{
+    margin-left:40px;
+    width: 150px;
+    height: 100%;
+    margin-left: 20px;
+    box-sizing: border-box;
+
+}
+
+.section-logo img{
+    margin: 30px;
+    width: 200px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+.items-lista{
+  width: 40%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px ;  
+}
+
+.items-lista a{
+    font-family: interrs;
+    font-weight: 700px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.items-lista a:hover{
+
+  background-color: #4cb9b7;
+  color: white;
+
+}
+
+.botones-interacion{
+  width: 25%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px ;  
+}
+
+.botones-interacion a{
+  background-color: #3d9492;
+  color: #f2f2f2;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.botones-interacion a:hover{
+  background-color: #4cb9b7;
+  color: white;
+}
+
+.button{
+    font-family: interrs;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    margin: 10px;
+}
+.button:hover{
+    color: white;
+}
+
+.button a:hover{
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.slider{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.frase {
+    width: 200px;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.info{
+    margin: 30px;
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-mision{
+    font-family: interrs;
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+}
+
+.img-mision{
+    height: 200px;
+    width: 300px;
+    margin: 70px;
+    border-radius: 10px;
+}
+
+.img-mision img{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.info-servicios{
+    background-color: #69dad8;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-servicios{
+    padding: 45px ;
+    width: 1000px;
+    height: 450px;
+}
+
+.items-servicios h1{
+    font-weight: 900pxs;
+    margin: 20px;
+    text-align: center;
+    font-family: interrs;
+}
+
+.items-servicios p{
+    width: 630px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    font-family: interrs;
+}
+
+.items-servicios .items-tipos{
+    
+    width: 90%;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    font-family: interrs;
+}
+
+.items-tipos-elementos{
+    margin-top: 70px;
+}
+
+.items-servicios p{
+    font-size: 20px;
+}
+
+.elemento{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+    width: 300px;
+    height: 40px;
+}
+
+
+.info-ayuda{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.items-ayuda{
+    width: 1070px;
+    height: 600px;
+}
+
+.items-ayuda h1{
+    font-weight: 700;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: interrs;
+}
+
+.tarjeta-ayuda{
+    padding: 6px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+    width: 305px;
+    height: 380px;
+    text-align: center;
+}
+
+.tarjeta-ayuda:hover{
+    background-color: #e0e0e0a0;
+}
+
+
+.circulo-uno{
+    margin: auto;
+    background-image: url(/img/psicologia-clinica-social.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.circulo-dos{
+    margin: auto;
+    background-image: url(/img/Copy-of-Unnamed-Design-43.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.circulo-tres{
+    margin: auto;
+    background-image: url(/img/psicologia_de_los_colores_que_es_y_significados_51710_600.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-ayuda h5{
+    margin-top: 20px;
+    font-weight: 500px;
+}
+
+
+footer{
+    background-color:  #69dad8;
+    width: 100%;
+    height: 300px;
+    display:flex;
+    float: right;
+}
+
+.navegacion{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.navegacion h1{
+    padding: 15px;
+    font-size: 20px;
+    font-family: oswald;
+    text-align: left;
+    font-weight: 700;
+}
+    
+
+.navegacion ul{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navegacion li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navegacion li:hover{
+    text-decoration: none;
+    background-color: #4cb9b7;
+    color: white;
+}
+
+.navegacion li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion-dos{
+    float: right;
+    margin: 100px;
+    width: 200px;
+    height: 100%;
+    
+}
+/** Fin Estilos de pagina inicio index**/
+/**-------------------------------------------------------------**/
+
+
+@font-face {
+    font-family: interrs ;
+    src: url(/fuentes/asmf.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(/fuentes/Oswald-VariableFont_wght.ttf);
+}

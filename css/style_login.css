@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#registrar{
+    display: none;
+}
+
+body{
+    background-image: url(/img/descarga.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.contenedor{
+    text-align: center;
+}
+.principal{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 0px #753e3e;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: #69dad8;
+    box-shadow: 0px 0px 13px 6px #69dad8;
+
+}
+
+.info .regresar{
+    border-radius: 10px;
+    position: absolute;
+    top: 23.7%;
+    left: 36.5%;
+    width: 52px;
+    height: 50px;
+}
+.info .regresar:hover{
+    color: white;
+    background-color:#3e9190;
+}
+
+.regresar img{
+    width: 90%;
+    height: 90%;
+}
+
+.info-login{
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.info-login h1{
+    font-size: 40px;
+    color: #ffffffe3;
+    font-family: cakecafe;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.info-login .input-uno{
+    
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #4cb9b7;
+}
+
+.info-login button{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #faf5f5da;
+    font-family: interrs;
+    color: rgb(0, 0, 0);
+}
+
+.info-login button a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-login button:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.info-login p{
+    width: 300px;
+    font-family: interrs;
+    margin: 20px;
+    color:rgba(255, 255, 255, 0.934);
+}
+.info-login p a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.info-login p a:hover{
+    color: rgb(253, 253, 255);
+}
+/*----------------------------------------------**/
+/*----------------------------------------------**/
+/*----------------------------------------------**/
+/*----------------------------------------------**/
+/*----------------------------------------------**/
+
+
+
+
+.info-registar{
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    background-color: #69dad8;
+    text-align: left;
+}
+
+.info-registar .titulo{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-family: interrs ;
+    font-weight: 700px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info-registar form .dato p{
+
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: russ;
+    padding: 5px;
+    font-family: 20px;
+}
+.cont-form form .dato{
+    display: inline-block;
+}
+
+.cont-form{
+    margin-top: 10px;
+    width: 100%;
+    height: 80%;
+}
+
+.dato{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.cont-form  .boton-linea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cont-form button{
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.847);
+}
+
+.cont-form button a{
+    font-weight: 800;
+    font-family: interrs;
+    color: black;
+    text-decoration: none;
+ 
+}
+.cont-form button a:hover{
+    font-size: 14px;
+    font-weight: 1000;
+    color: rgb(1, 1, 1);
+}
+
+.cont-form button:hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+.dato input[type=text]{
+    font-family: russ;
+    font-weight: 200;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #4cb9b7;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    width: 250px;
+    height: 35px;
+}
+
+
+.dato input[type=password]{
+    padding: 10px;
+    background-color: #4cb9b7;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    box-sizing: border-box;
+}
+
+input::placeholder{
+    color: #faf5f5ac;
+    padding: 10px;
+    font-family: interrs;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: interrs ;
+    src: url(/fuentes/asmf.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(/fuentes/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: russ;
+    src: url(/fuentes/RussoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: cakecafe;
+    src: url(/fuentes/Cakecafe.ttf);
+}
+
