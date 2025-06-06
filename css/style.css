@@ -1,90 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: interrs;
 }
-body{
+
+body {
     background-color: #faf5f5;
 }
+
 /** Inicio Estilos de pagina inicio index**/
-header{
+header {
     background-color: #69dad8;
-    width: 100%; 
-    height: 85px; 
+    width: 100%;
+    height: 85px;
     display: flex;
     box-shadow: 0px 5px 40px 4px #0da054;
-    z-index: 9999;
 }
 
-.section-logo{
-    margin-left:40px;
-    width: 150px;
+.section-logo {
+    width: 30%;
     height: 100%;
-    margin-left: 20px;
-    box-sizing: border-box;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.section-logo img{
-    margin: 30px;
-    width: 200px;
+.section-logo img {
+    width: 100%;
     height: 25px;
-    margin-left: 30px;
 }
 
-.items-lista{
-  width: 40%;
-  height: 100%;
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 200px ;  
+.items-lista {
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
 }
 
-.items-lista a{
+.items-lista a {
     font-family: interrs;
-    font-weight: 700px;
-    margin: 10px;
+    font-weight: 700;
+    margin: 5px;
     text-align: center;
     padding: 10px;
-    border-radius: 5px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
-.items-lista a:hover{
 
-  background-color: #4cb9b7;
-  color: white;
+.items-lista a:hover {
+    border-bottom: 2px solid white;
+    color: white;
+    transition: 0.5s;
 
 }
 
-.botones-interacion{
-  width: 25%;
-  height: 100%;
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 200px ;  
+.botones-interacion {
+    width: 25%;
+    height: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.botones-interacion a{
-  background-color: #3d9492;
-  color: #f2f2f2;
-  margin: 5px;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
+.botones-interacion a {
+    background-color: #3d9492;
+    color: #f2f2f2;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.botones-interacion a:hover{
-  background-color: #4cb9b7;
-  color: white;
+.botones-interacion a:hover {
+    background-color: #4cb9b7;
+    color: white;
 }
 
-.button{
+.button {
     font-family: interrs;
     padding: 10px;
     border-radius: 5px;
@@ -92,11 +88,12 @@ header{
     border: none;
     margin: 10px;
 }
-.button:hover{
+
+.button:hover {
     color: white;
 }
 
-.button a:hover{
+.button a:hover {
     color: white;
 }
 
@@ -106,7 +103,7 @@ header{
 }
 
 
-.slider{
+.slider {
     width: 100%;
     height: 700px;
     background-size: cover;
@@ -117,13 +114,13 @@ header{
     width: 200px;
 }
 
-.slider img{
+.slider img {
     width: 100%;
     height: 100%;
     opacity: 0.6;
 }
 
-.info{
+.info {
     margin: 30px;
     width: auto;
     height: 300px;
@@ -132,28 +129,28 @@ header{
     align-items: center;
 }
 
-.info-mision{
+.info-mision {
     font-family: interrs;
     width: 400px;
     height: 200px;
     text-align: justify;
 }
 
-.img-mision{
+.img-mision {
     height: 200px;
     width: 300px;
     margin: 70px;
     border-radius: 10px;
 }
 
-.img-mision img{
+.img-mision img {
     border-radius: 30px;
     width: 100%;
     height: 100%;
-    
+
 }
 
-.info-servicios{
+.info-servicios {
     background-color: #69dad8;
     width: 100%;
     height: 500px;
@@ -162,20 +159,20 @@ header{
     align-items: center;
 }
 
-.items-servicios{
-    padding: 45px ;
+.items-servicios {
+    padding: 45px;
     width: 1000px;
     height: 450px;
 }
 
-.items-servicios h1{
+.items-servicios h1 {
     font-weight: 900pxs;
     margin: 20px;
     text-align: center;
     font-family: interrs;
 }
 
-.items-servicios p{
+.items-servicios p {
     width: 630px;
     font-weight: 400;
     margin: auto;
@@ -183,8 +180,8 @@ header{
     font-family: interrs;
 }
 
-.items-servicios .items-tipos{
-    
+.items-servicios .items-tipos {
+
     width: 90%;
     height: 150px;
     display: flex;
@@ -193,15 +190,15 @@ header{
     font-family: interrs;
 }
 
-.items-tipos-elementos{
+.items-tipos-elementos {
     margin-top: 70px;
 }
 
-.items-servicios p{
+.items-servicios p {
     font-size: 20px;
 }
 
-.elemento{
+.elemento {
     text-align: left;
     font-size: 20px;
     font-weight: bold;
@@ -212,7 +209,7 @@ header{
 }
 
 
-.info-ayuda{
+.info-ayuda {
     width: 100%;
     height: 600px;
     display: flex;
@@ -221,12 +218,12 @@ header{
 
 }
 
-.items-ayuda{
+.items-ayuda {
     width: 1070px;
     height: 600px;
 }
 
-.items-ayuda h1{
+.items-ayuda h1 {
     font-weight: 700;
     margin: 20px;
     padding: 20px;
@@ -234,7 +231,7 @@ header{
     font-family: interrs;
 }
 
-.tarjeta-ayuda{
+.tarjeta-ayuda {
     padding: 6px;
     border-radius: 5px;
     display: inline-block;
@@ -244,12 +241,12 @@ header{
     text-align: center;
 }
 
-.tarjeta-ayuda:hover{
+.tarjeta-ayuda:hover {
     background-color: #e0e0e0a0;
 }
 
 
-.circulo-uno{
+.circulo-uno {
     margin: auto;
     background-image: url(/img/psicologia-clinica-social.jpg);
     width: 150px;
@@ -259,7 +256,7 @@ header{
     background-position: center;
 }
 
-.circulo-dos{
+.circulo-dos {
     margin: auto;
     background-image: url(/img/Copy-of-Unnamed-Design-43.png);
     background-size: cover;
@@ -268,7 +265,8 @@ header{
     height: 150px;
     border-radius: 50%;
 }
-.circulo-tres{
+
+.circulo-tres {
     margin: auto;
     background-image: url(/img/psicologia_de_los_colores_que_es_y_significados_51710_600.jpg);
     width: 150px;
@@ -278,21 +276,21 @@ header{
     background-position: center;
 }
 
-.tarjeta-ayuda h5{
+.tarjeta-ayuda h5 {
     margin-top: 20px;
     font-weight: 500px;
 }
 
 
-footer{
-    background-color:  #69dad8;
+footer {
+    background-color: #69dad8;
     width: 100%;
     height: 300px;
-    display:flex;
+    display: flex;
     float: right;
 }
 
-.navegacion{
+.navegacion {
     margin-top: 50px;
     margin-left: 100px;
     width: 200px;
@@ -300,21 +298,21 @@ footer{
 }
 
 
-.navegacion h1{
+.navegacion h1 {
     padding: 15px;
     font-size: 20px;
     font-family: oswald;
     text-align: left;
     font-weight: 700;
 }
-    
 
-.navegacion ul{
+
+.navegacion ul {
     display: inline-block;
     text-decoration: none;
 }
 
-.navegacion li{
+.navegacion li {
     list-style: none;
     text-decoration: none;
     padding: 5px;
@@ -323,35 +321,36 @@ footer{
     text-align: left;
 }
 
-.navegacion li a{
+.navegacion li a {
     text-decoration: none;
     color: #000000;
 }
 
-.navegacion li:hover{
+.navegacion li:hover {
     text-decoration: none;
     background-color: #4cb9b7;
     color: white;
 }
 
-.navegacion li a:hover{
+.navegacion li a:hover {
     text-decoration: none;
     color: white;
 }
 
-.navegacion-dos{
+.navegacion-dos {
     float: right;
     margin: 100px;
     width: 200px;
     height: 100%;
-    
+
 }
+
 /** Fin Estilos de pagina inicio index**/
 /**-------------------------------------------------------------**/
 
 
 @font-face {
-    font-family: interrs ;
+    font-family: interrs;
     src: url(/fuentes/asmf.ttf);
 }
 

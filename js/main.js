@@ -7,7 +7,6 @@ input.addEventListener("input", function() {
     input.style.padding="10px"
     input.style.boxSizing="border-box"
     input.style.color="white";
-s
 });
 
 inp.addEventListener("input", function() {

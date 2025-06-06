@@ -12,49 +12,32 @@ body{
     background-image: url(/img/descarga.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    
+
 }
 .contenedor{
     text-align: center;
+    width: 30%;
 }
-.principal{
-    width: 700px;
-    height: 500px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 9px 0px #753e3e;
-}
+
 .info{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height: 55%;
     background-color: #69dad8;
-    box-shadow: 0px 0px 13px 6px #69dad8;
+    box-shadow: 0px 0px 13px 6px #69dad883;
 
 }
 
-.info .regresar{
-    border-radius: 10px;
-    position: absolute;
-    top: 23.7%;
-    left: 36.5%;
-    width: 52px;
-    height: 50px;
-}
 .info .regresar:hover{
     color: white;
     background-color:#3e9190;
-}
-
-.regresar img{
-    width: 90%;
-    height: 90%;
 }
 
 .info-login{
@@ -62,7 +45,6 @@ body{
     height: 350px;
     background-size: cover;
     background-position: center;
-
 }
 
 .info-login h1{
@@ -129,14 +111,19 @@ body{
 /*----------------------------------------------**/
 
 
-
+.cont-registro{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .info-registar{
     border-radius: 20px;
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     background-color: #69dad8;
-    text-align: left;
 }
 
 .info-registar .titulo{
@@ -164,38 +151,50 @@ body{
     padding: 5px;
     font-family: 20px;
 }
-.cont-form form .dato{
-    display: inline-block;
-}
 
 .cont-form{
-    margin-top: 10px;
+    margin-top: 2%;
     width: 100%;
     height: 80%;
+    display: flex;
+    align-items: center;
 }
 
 .dato{
     margin-top: 0px;
-    margin-bottom: 15px;
-    margin-left: 20px;
+    margin-bottom: 5%;
+    margin-left: 5%;
     display: inline-block;
 }
-.cont-form  .boton-linea{
+
+.select{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    background-color: #4cb9b7;
+}
+.cont-form .boton-linea{
+    width: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 
-.cont-form button{
-    margin: 20px;
+
+.cont-form .btn{
+    margin: 5%;
     border: none;
     border-radius: 5px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.847);
+    display: inline-block;
 }
 
-.cont-form button a{
+.cont-form .btn a{
     font-weight: 800;
     font-family: interrs;
     color: black;
